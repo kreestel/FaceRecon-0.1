@@ -21,7 +21,38 @@ Not polished, not maintained, but yeah — it works.
 - Pillow
 - wikipedia-api
 
-## 📦 Requirements
+## 🧩 Database Setup (Required)
 
-```bash
+This project requires a local MySQL database to store and fetch face records.
+
+### 📂 Database Name:
+`facerecognition`
+
+### 🗂️ Table Name:
+`faces`
+
+### 🧱 Table Structure:
+
+| Column Name | Type        | Description                         |
+|-------------|-------------|-------------------------------------|
+| name        | VARCHAR(255)| Name of the person                  |
+| path        | VARCHAR(500)| File path to the person's image     |
+| info        | TEXT        | (Optional) Description or context   |
+
+### 📜 SQL to Create the Table:
+
+```sql
+CREATE DATABASE facerecognition;
+
+USE facerecognition;
+
+CREATE TABLE faces (
+    name VARCHAR(255),
+    path VARCHAR(500),
+    info TEXT
+);
+
+```
+## 📦 Requirements
+```
 pip install -r requirements.txt
