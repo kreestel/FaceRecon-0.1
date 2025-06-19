@@ -2,7 +2,7 @@
 
 Built this back when I was in school, messing around with face recognition, Python GUIs, and databases.
 It’s a local desktop app that recognizes faces from images, pulls info from a MySQL database, and also fetches information on the identified person from Wikipedia.  
-Not polished, not maintained, but yeah — it works.
+Not polished, not maintained, but yeah - it works.
 
 ## 🚀 Features
 
@@ -59,8 +59,8 @@ pip install -r requirements.txt
 ```
 ## 📄 License
 
-This project is licensed under **Creative Commons BY-NC 4.0** -
-You’re free to use, remix, or build on this for personal/non-commercial use only.
+This project is licensed under **Creative Commons BY-NC 4.0** —  
+Feel free to use, remix, or build on this for personal/non-commercial use only.
 
 For details: https://creativecommons.org/licenses/by-nc/4.0/
 
