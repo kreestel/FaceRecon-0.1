@@ -56,3 +56,11 @@ CREATE TABLE faces (
 ## 📦 Requirements
 ```
 pip install -r requirements.txt
+```
+## 📄 License
+
+This project is licensed under **Creative Commons BY-NC 4.0** —  
+You’re free to use, remix, or build on this for personal/non-commercial use only.
+
+For details: https://creativecommons.org/licenses/by-nc/4.0/
+
