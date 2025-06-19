@@ -1,0 +1,4 @@
+face_recognition
+mysql-connector-python
+Pillow
+wikipedia-api
